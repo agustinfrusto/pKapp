@@ -89,7 +89,7 @@ export default function App() {
         <Stack.Screen
           name="TopicSelect"
           component={TopicSelectScreen}
-          options={{ title: 'pKapp · Elegir tema' }}
+          options={{ title: 'pKapp · Configura tu cuestionario' }}
         />
         <Stack.Screen
           name="Quiz"

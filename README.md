@@ -11,7 +11,7 @@ Construido con **Expo / React Native**. Funciona offline.
 - **Filtros:** por fuente (examen real / generada) y por parcial (1er / 2do), combinables.
 - **Tres modos:**
   - **Práctica por tema:** elegís un tema específico.
-  - **Examen:** 75 preguntas al azar (igual que el parcial real).
+  - **Examen:** 75 preguntas al azar (examen completo) o 40 preguntas filtrando por 1er o 2do parcial.
   - **Repaso de fallos:** las que respondiste mal antes.
 - **Explicaciones** tras cada respuesta o al final del cuestionario.
 - **Estadísticas** por tema y lista de preguntas más falladas.
@@ -91,9 +91,9 @@ En `TopicSelectScreen` hay dos filtros combinables:
 - **Solo generadas** → filtra `source === 'generated' || source === 'user'`.
 
 **Filtro de parcial** (3 opciones):
-- **Ambos** (default).
-- **1er Parcial** → filtra `parcial === 'primero'`.
-- **2do Parcial** → filtra `parcial === 'segundo'`.
+- **Examen** (default) → sin filtro de parcial. En modo examen sortea 75 preguntas.
+- **1er Parcial** → filtra `parcial === 'primero'`. En modo examen sortea 40 preguntas.
+- **2do Parcial** → filtra `parcial === 'segundo'`. En modo examen sortea 40 preguntas.
 
 El filtrado se aplica antes de pasar el array a `QuizScreen`. En `QuizScreen` cada pregunta muestra un badge indicando a qué parcial pertenece.
 

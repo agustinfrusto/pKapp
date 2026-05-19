@@ -40,7 +40,7 @@ export default function HomeScreen({ navigation }) {
       <View style={styles.modesContainer}>
         <ModeCard
           icon={icons.practicar}
-          title="Entrena Temas/Parciales"
+          title="Entrena por temas"
           description="Crea tu propio test eligiendo temas o practica para los parciales"
           onPress={() => navigation.navigate('TopicSelect', { mode: 'practice' })}
         />
