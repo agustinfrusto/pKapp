@@ -1,8 +1,22 @@
-# pKapp
+# pKapp (versión nativa — ARCHIVADO)
 
 App para ayudar a los estudiantes de Medicina y Escuela Técnica de Medicina.
 
 Construido con **Expo / React Native**. Funciona offline.
+
+> ## ⚠️ Este repositorio está archivado
+>
+> **La versión nativa (iOS/Android) ya no recibe mantenimiento.** Todo el desarrollo se migró a la **versión web** del proyecto, que se mantiene activa, se actualiza con nuevas preguntas/features y se puede instalar como PWA en cualquier dispositivo (incluyendo móviles).
+>
+> 👉 **Repo activo:** [pKapp-web](https://github.com/agustinfrusto/pKapp-web)
+>
+> **¿Por qué la migración?**
+> - Distribución más simple (no requiere stores)
+> - Updates instantáneos (cada `git push` redeploya)
+> - PWA instalable: experiencia tipo app sin pasar por App Store/Play Store
+> - Un solo banco de preguntas y un solo código a mantener
+>
+> Este repo se deja online por referencia histórica y por si alguien quiere forkearlo para hacer su propia app nativa. Los issues y PRs no van a ser atendidos.
 
 ## Características
 
